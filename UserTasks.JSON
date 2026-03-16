@@ -1,0 +1,56 @@
+[
+  {
+    "Id": "8b79f4e9-738b-4904-b4f0-fa22cfcc905a",
+    "Title": "Оптимизация ThreadPool под высокую нагрузку",
+    "Description": "Настроить MinThreads=100, MaxThreads=1000. Добавить метрики ThreadPool.GetAvailableThreads().",
+    "Status": 0,
+    "Priority": 2,
+    "DueDate": "2026-03-20T18:00:00",
+    "CreatedAt": "2026-03-14T09:15:00"
+  },
+  {
+    "Id": "f36cd55f-3af4-423c-a6bf-5a58a2a33dd9",
+    "Title": "Middleware для rate limiting по IP",
+    "Description": "AspNetCoreRateLimit + Redis. Sliding window 100 req/min на IP.",
+    "Status": 1,
+    "Priority": 0,
+    "DueDate": "2026-03-22T12:00:00",
+    "CreatedAt": "2026-03-13T16:30:00"
+  },
+  {
+    "Id": "e2d1aafc-7f24-4946-90fb-82bec21434b7",
+    "Title": "Миграция проекта на .NET 10",
+    "Description": null,
+    "Status": 0,
+    "Priority": 1,
+    "DueDate": "2025-03-18T00:00:00",
+    "CreatedAt": "2026-03-12T11:45:00"
+  },
+  {
+    "Id": "c1187cd7-f330-485d-8abf-110e33882534",
+    "Title": "Unit тесты для concurrency сценариев",
+    "Description": "Task.WhenAll + Parallel.ForEach. Покрытие race conditions с xUnit.",
+    "Status": 1,
+    "Priority": 2,
+    "DueDate": "2025-03-18T00:00:00",
+    "CreatedAt": "2026-03-14T14:20:00"
+  },
+  {
+    "Id": "bef20799-4e6d-40dd-b595-2c8df7d56535",
+    "Title": "Оптимизация GC pressure в batch обработке",
+    "Description": "Server GC + GCLatencyMode.SustainedLowLatency. Профилирование LOH.",
+    "Status": 1,
+    "Priority": 0,
+    "DueDate": "2026-03-25T00:00:00",
+    "CreatedAt": "2026-03-10T10:10:00"
+  },
+  {
+    "Id": "e2602aa7-69b2-42de-9143-64597513e666",
+    "Title": "Ну давай, всё получится попытка 5",
+    "Description": "Что-то",
+    "Status": 0,
+    "Priority": 1,
+    "DueDate": "2026-03-25T00:00:00",
+    "CreatedAt": "2026-03-15T13:13:30.5882193+03:00"
+  }
+]
